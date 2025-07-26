@@ -1,3 +1,14 @@
+import "./application.css";
+
+
+// 2. Lógica para registrar los componentes de React
+import ReactOnRails from "react-on-rails";
+import PostList from "../components/PostList"; // Revisa que la ruta sea correcta
+
+// 3. Registra el componente
+ReactOnRails.register({
+  PostList,
+});
 /* eslint no-console:0 */
 // This file is automatically compiled by Webpack, along with any other files
 // present in this directory. You're encouraged to place your actual application logic in

@@ -32,6 +32,8 @@ development:
       overlay: true
       # May also be a string
       # webSocketURL:
+      # Explicitly tell the HMR client where to connect
+      webSocketURL: ws://localhost:3035/ws
       #  hostname: "0.0.0.0"
       #  pathname: "/ws"
       #  port: 8080
